@@ -1,0 +1,8 @@
+{
+  "name": "TaxFlow - Indian Accounting & GST Automation",
+  "description": "Enterprise-grade Indian accounting, bank statement automation, AI invoice extraction, GST reconciliation, and Tally workflow platform for CA firms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaxFlow - Indian Accounting &amp; GST Automation</title>
+    <meta name="description" content="Enterprise-grade Indian accounting, bank statement automation, AI invoice extraction, GST reconciliation, and Tally workflow platform for CA firms." />
+    <meta property="og:title" content="TaxFlow - Indian Accounting &amp; GST Automation" />
+    <meta property="og:description" content="Enterprise-grade Indian accounting, bank statement automation, AI invoice extraction, GST reconciliation, and Tally workflow platform for CA firms." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var curFetch = window.fetch ? window.fetch.bind(window) : null;
+          var getter = function() { return curFetch; };
+          var setter = function(fn) { curFetch = fn; };
+          try {
+            Object.defineProperty(window, 'fetch', {
+              get: getter,
+              set: setter,
+              configurable: true,
+              enumerable: true
+            });
+          } catch (e) {}
+          try {
+            if (typeof Window !== 'undefined' && Window.prototype) {
+              Object.defineProperty(Window.prototype, 'fetch', {
+                get: getter,
+                set: setter,
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (e) {}
+        } catch (err) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div style="padding:20px;font-family:sans-serif;">TaxFlow API is running. Please enable JavaScript to access the TaxFlow accounting platform.</div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

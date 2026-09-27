@@ -1,0 +1,315 @@
+{
+  "firms": [
+    {
+      "id": "firm_primary_01",
+      "name": "TaxFlow CA Practice",
+      "registrationNumber": "FRN-2026-IND",
+      "pan": "AABCT1234F",
+      "email": "admin@taxflow.in",
+      "phone": "+91 98200 12345",
+      "address": "Suite 401, Nariman Point Commercial Hub",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400021",
+      "createdAt": "2026-09-19T12:44:56.116Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_owner_01",
+      "name": "Principal CA",
+      "email": "admin@taxflow.in",
+      "passwordHash": "$2b$10$hHkWT2FoGClTrZHssHzKs.JdiNJ6O.GeDrGXIkX0h/m66zk73kfwa",
+      "role": "FIRM_OWNER",
+      "firmId": "firm_primary_01",
+      "firmName": "TaxFlow CA Practice",
+      "phone": "+91 98200 12345",
+      "status": "ACTIVE",
+      "permissions": [
+        "ADMIN",
+        "VIEW",
+        "CREATE",
+        "EDIT",
+        "DELETE",
+        "UPLOAD",
+        "PROCESS",
+        "APPROVE",
+        "REJECT",
+        "SYNC",
+        "EXPORT",
+        "FILE"
+      ],
+      "createdAt": "2026-09-19T12:44:56.116Z",
+      "lastLogin": "2026-09-19T12:44:56.116Z"
+    }
+  ],
+  "clients": [],
+  "companies": [],
+  "documents": [],
+  "bankTransactions": [],
+  "ledgers": [
+    {
+      "id": "led_bank_default",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Bank Account (Primary)",
+      "group": "Bank Accounts",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR",
+      "isDefault": true
+    },
+    {
+      "id": "led_cash_default",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Cash in Hand",
+      "group": "Cash-in-hand",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR",
+      "isDefault": true
+    },
+    {
+      "id": "led_food",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Food & Refreshments",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_elec",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Electricity Expenses",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_rent",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Rent & Maintenance",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_salary",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Salaries & Wages",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_prof_fees",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Professional Fees Income",
+      "group": "Direct Incomes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_client_receipts",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Client Receipts",
+      "group": "Direct Incomes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_sales",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Sales Account",
+      "group": "Sales Accounts",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_purchase",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Purchase Account",
+      "group": "Purchase Accounts",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_office_exp",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Office Expenses",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_travel",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Travel & Conveyance",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_bank_charges",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Bank Charges & Commission",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_software",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Software & Technology Expenses",
+      "group": "Indirect Expenses",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_tax_payment",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Direct Taxes / Advance Tax",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_gst_payment",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "GST Electronic Cash Ledger",
+      "group": "Current Assets",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_output_cgst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Output CGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_output_sgst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Output SGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_output_igst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Output IGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "CR"
+    },
+    {
+      "id": "led_input_cgst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Input CGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_input_sgst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Input SGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_input_igst",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Input IGST A/C",
+      "group": "Duties & Taxes",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    },
+    {
+      "id": "led_suspense",
+      "firmId": "firm_primary_01",
+      "companyId": "",
+      "name": "Suspense Account",
+      "group": "Suspense A/c",
+      "openingBalance": 0,
+      "currentBalance": 0,
+      "balanceType": "DR"
+    }
+  ],
+  "vouchers": [],
+  "invoices": [],
+  "gstReconciliation": [],
+  "tallyConnection": {
+    "id": "tally_conn_default",
+    "companyId": "",
+    "companyName": "Not Connected",
+    "tallyHost": "localhost",
+    "tallyPort": 9000,
+    "status": "OFFLINE",
+    "connectorVersion": "v2.4.0-tallyprime",
+    "pendingVouchersCount": 0,
+    "syncedVouchersCount": 0
+  },
+  "tallyCompanyMappings": [],
+  "tallySyncLogs": [],
+  "learnedMappings": [],
+  "tasks": [],
+  "auditLogs": [
+    {
+      "id": "audit_init_01",
+      "firmId": "firm_primary_01",
+      "userName": "System",
+      "userRole": "SUPER_ADMIN",
+      "action": "CREATE",
+      "entity": "SYSTEM",
+      "entityId": "sys_init",
+      "details": "TaxFlow database initialized with clean zero-demo state and enterprise security.",
+      "timestamp": "2026-09-19T12:44:56.117Z"
+    }
+  ]
+}
